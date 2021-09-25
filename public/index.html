@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Cumple - OCHOA</title>
     <style>
         .centrar{
             text-align: center;
@@ -24,6 +24,10 @@
         .fab{
             font-size: 100px;
         } 
+        .aside{
+        float: right;
+        display: block;
+        }
     </style>
 </head>
 <body>
@@ -40,7 +44,16 @@
     </header>
     <h1 class="centrar rosa">hola</h1>
     <section>
-        <div class="container">
+        <container class="aside">
+            <aside>
+                <iframe src="https://open.spotify.com/embed/playlist/2bV8McPwBHymvVdGCJUu2O?theme=0" width="70%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media">
+                </iframe>
+            </aside>
+        </container>
+        
+        <container>
+        <article>
+            <div class="container">
             <blockquote class="blockquote">
                 <p class="centrar">Tranqui piola voy a poner la info que pueden llegar a necesitar para el sabado.</p>
             </blockquote>
@@ -89,6 +102,7 @@
                 </figcaption>
             </figure>
 
+
             <h1 class="centrar">Como llegar?</h1>
             <figure class="text-center">
                 <blockquote class="blockquote">
@@ -98,8 +112,22 @@
                 si necesitan mas informacion al respecto me escriben
                 </figcaption>
             </figure>
+
+            <h1 class="centrar">Ademas!</h1>
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                <p>La lista de musica esta abierta</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                Asi que pueden agregar canciones abriendo la lista desde el icono de spotify del final
+                </figcaption>
+            </figure>
+
         </div>
-    </section>
+        
+        </article>
+        </container>
+</section>
 
     <footer>
         <div class="contaier centrar">
@@ -113,6 +141,9 @@
                 <a href="https://wa.me/+543517666052?text=Hola,%20estoy%20perdide.%20Me%20decis%20como%20llegar">
                     <i class="fab fa-whatsapp"></i>
                 </a>
+                <a href="https://open.spotify.com/playlist/2bV8McPwBHymvVdGCJUu2O?si=7fa9c0f16cb34617">
+                    <i class="fab fa-spotify"></i>
+                </a>
                 </div>
                 <div class="col-4">
                 </div>                
@@ -122,6 +153,7 @@
 
 
     <script src="https://kit.fontawesome.com/dbfebd1c12.js" crossorigin="anonymous"></script>
-    
+    <script>document.querySelector('[title="Play"]').click()
+    </script>
 </body>
 </html>
